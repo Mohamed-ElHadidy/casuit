@@ -31,7 +31,20 @@ body {
     list-style: none;
     margin: 5px 6px;
     font-size: 16px;
+}
+
+.nav-list ul li a {
     color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.nav-list ul li a:hover {
+    border-bottom: 2px solid #53576b;;
+    margin-bottom: 8px;
+    transition:  ease 0.5s;
+    /* color: #53576b; */
 }
 
 .hero {
@@ -40,25 +53,54 @@ body {
 
 .hero-right-side {
     width: 55vw;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
 
-.hero-left-side {
-    width: 45vw;
-    float: left;
-}
 
 .hero-right-side .hero-image {
     width: 100%;
 }
 
+.hero-left-side {
+    width: 45vw;
+    position: relative;
+}
 
 .hero-left-side h2 {
-    font-size: 90px;
+    font-size: 100px;
     margin-left: 23px;
     position: absolute;
-    top: 261px;
-    left: 58px;
+    top: 240px;
+    left: 460px;
     width: 75%;
     color: white;
 }
+
+#hero-shop-now-btn {
+    width: 230px;
+    height: 60px;
+    display: flex;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 21px;
+    position: absolute;
+    top: 580px;
+    left: 510px;
+    padding: 13px 30px;
+    border-color: transparent;
+}
+
+#hero-shop-now-btn h3 { 
+    margin-left: 10px;
+    color:#53576b;
+}
+
+.cls-1 {
+    fill: #53576b;
+    stroke: #53576b;
+    stroke-width: 8px;
+}
+
