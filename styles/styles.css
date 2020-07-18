@@ -67,14 +67,16 @@ body {
 .hero-left-side {
     width: 45vw;
     position: relative;
+    top: 200px;
+    left: 253px;
 }
 
 .hero-left-side h2 {
     font-size: 100px;
     margin-left: 23px;
     position: absolute;
-    top: 240px;
-    left: 460px;
+    /* top: 240px;
+    left: 460px; */
     width: 75%;
     color: white;
 }
@@ -87,8 +89,8 @@ body {
     font-weight: bold;
     border-radius: 21px;
     position: absolute;
-    top: 580px;
-    left: 510px;
+    top: 350px;
+    left: 110px;
     padding: 13px 30px;
     border-color: transparent;
 }
