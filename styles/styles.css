@@ -99,6 +99,7 @@ body {
     top: 350px;
     left: 110px;
     padding: 13px 30px;
+    cursor: pointer;
     border-color: transparent;
 }
 
@@ -113,7 +114,7 @@ body {
     stroke-width: 8px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 719px) {
     .nav-list ul {
         flex-direction: column;
         position: fixed;
@@ -149,7 +150,7 @@ body {
     }
 
     .hero {
-        height: 80vh;
+        height: 73vh;
         overflow-y: hidden;
     }
 
@@ -185,6 +186,46 @@ body {
 
     #hero-shop-now-btn h3 {
         margin: 1px 0 0 10px;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1200px) {
+    .hero {
+        height: 111vh;
+    }
+
+    .hero-left-side {
+        top: 297px;
+        left: 148px;
+    }
+
+    .hero-right-side {
+        top: -62px;
+        right: 184px;
+    }
+
+    .hero-left-side h2 {
+        font-size: 80px;
+    }
+
+    #hero-shop-now-btn {
+        width: 174px;
+        height: 50px;
+        font-size: 13px;
+        top: 263px;
+        left: 80px;
+    }
+
+    #hero-shop-now-btn svg { 
+        width: 12px;
+        margin: -4px -1px;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .hero {
+        height: 72vh;
     }
 }
 
